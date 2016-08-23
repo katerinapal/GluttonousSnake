@@ -1,2 +1,2 @@
 # GluttonousSnake
-a gluttonous snake game by js
+a gluttonous snake game by RequireJs
