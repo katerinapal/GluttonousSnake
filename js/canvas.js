@@ -1,3 +1,4 @@
+"use strict";
 define("canvas",[],function(){
 
 	var paint =function(game){

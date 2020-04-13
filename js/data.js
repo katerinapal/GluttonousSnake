@@ -1,3 +1,4 @@
+"use strict";
 define("data",[],function(){
 
 	//the point model

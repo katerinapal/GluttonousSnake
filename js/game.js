@@ -1,3 +1,4 @@
+"use strict";
 define("game",["canvas","data"],function(canvas,data){
 	var Game = function(width,height,context,scoreContainer,alert){
 		this.width = width;
@@ -31,6 +32,7 @@ define("game",["canvas","data"],function(canvas,data){
 	}
 
 	Game.prototype.refreshScore = function(){
+		var index;
 		for(index in this.scoreContainer){
 			this.scoreContainer[index].innerText = this.score;
 		}
