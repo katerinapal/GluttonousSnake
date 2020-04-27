@@ -31,7 +31,10 @@ define("game",["canvas","data"],function(canvas,data){
 	}
 
 	Game.prototype.refreshScore = function(){
-		for(index in this.scoreContainer){
+
+		//modified to iterate over the object's own properties
+		//(exclude builtin object properties or prototype properties)
+		for(index in Object.getOwnPropertyNames(this.scoreContainer)){
 			this.scoreContainer[index].innerText = this.score;
 		}
 	}
