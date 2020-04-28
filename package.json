@@ -1,0 +1,19 @@
+{
+    "devDependencies": {
+        "babel-cli": "latest",
+        "babel-core": "latest",
+        "babel-plugin-add-module-exports": "latest",
+        "babel-plugin-transform-es2015-modules-commonjs": "latest",
+        "babel-polyfill": "latest",
+        "babel-plugin-transform-object-rest-spread": "latest",
+        "babel-preset-env": "latest",
+        "babel-preset-es2015-without-strict": "latest",
+        "babel-loader": "^6.0.1",
+        "babel-preset-es2015": "^6.24.1",
+        "webpack": "^1.15.0",
+        "webpack-dev-server": "^1.16.5"
+    },
+    "scripts": {
+        "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+    }
+}
